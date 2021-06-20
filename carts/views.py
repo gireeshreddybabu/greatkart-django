@@ -2,7 +2,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.http.response import HttpResponse
 from carts.models import Cart, CartItem
 from django.shortcuts import get_object_or_404, redirect, render
-from . import views
 from store.models import Product
 from .models import Cart, CartItem
 # Create your views here.
